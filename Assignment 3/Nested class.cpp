@@ -3,7 +3,7 @@ using namespace std;
 
 class Library {
 public:
-    class Book {  // nested class
+    class Book { 
     public:
         string title;
         void setTitle(string t) {
@@ -16,7 +16,7 @@ public:
 };
 
 int main() {
-    Library::Book b1;  // access nested class using ::
+    Library::Book b1; 
     b1.setTitle("The Alchemist");
     b1.show();
 }
