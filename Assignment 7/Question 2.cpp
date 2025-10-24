@@ -3,7 +3,6 @@ using namespace std;
 
 class Sum {
 public:
-    // Sum of 10 integers
     int total(int a[], int n) {
         int s = 0;
         for(int i=0; i<n; i++)
@@ -11,7 +10,6 @@ public:
         return s;
     }
 
-    // Sum of 5 floats
     float total(float a[], int n) {
         float s = 0;
         for(int i=0; i<n; i++)
